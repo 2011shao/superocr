@@ -1,16 +1,6 @@
-
-
 pip install --upgrade pip
-
-
-python -m venv venv
-
-
-source venv/bin/activate  
-
 pip install -r requirements.txt
-
-
+pip list
 gunicorn -c run_gunicorn.py main:app
 
 
