@@ -16,7 +16,6 @@ def ocr():
       if "http" in img_url:
         response = requests.get(img_url)  
         if response.status_code == 200:
-            # 从字节数据中创建图像
             img = Image.open(io.BytesIO(response.content))        
             res = OCR_MODEL.ocr(img)
             textArr=''
