@@ -1,7 +1,5 @@
 {
-              "builds": [{
-                                          "src": "setup.sh",
-                                          "use": "@now/bash"
-                            }
+              "rewrites": [
+                { "source": "/(.*)", "destination": "/superocr/main" }
               ]
-}
+            }
