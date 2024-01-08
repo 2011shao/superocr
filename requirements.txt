@@ -22,7 +22,6 @@ frozenlist==1.4.1
 fsspec==2023.12.2
 gitdb==4.0.11
 GitPython==3.1.40
-gunicorn==21.2.0
 huggingface-hub==0.20.1
 humanfriendly==10.0
 idna==3.6
