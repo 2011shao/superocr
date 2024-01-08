@@ -26,13 +26,13 @@ def ocr():
             print('dd',textArr)
             return textArr
         else:
-            return '图片下载失败'
+            return 'image error'
        
 
       else:
-            return  '图片地址错误'
+            return  'url error'
     else:
-            return  '位置错误'
+            return  'no error'
     
                     
       
